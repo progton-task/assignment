@@ -1,0 +1,285 @@
+
+.upper_horizontal_line
+{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.text_with_logo
+{
+    font-style: oblique;
+    margin-left: 148px;
+    margin-top: -50px;
+}
+
+.text-bottom
+{
+    font-style: italic;
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.horizontal-line-2
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+hr 
+{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(22, 15, 15);
+    margin: 1em 0;
+    padding:0;
+    border-width: 5px;
+}
+
+.thin-hr {
+    height: 1px;
+    color: #cdcdcd;
+    width: 100%;
+    background: #cdcdcd;
+    margin: 12px 0px;
+}
+
+.thin-hr3 {
+    height: 0.5px;
+    color: #cdcdcd;
+    width: 100%;
+    background: #cdcdcd;
+}
+.bottomline
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 490px;
+}
+
+.thin-hr-2 {
+    height: 1.5px;
+    color: #cdcdcd;
+    width: 100%;
+    background: #cdcdcd;
+}
+.image_logo{
+    margin-left: 80px;
+    margin-top: -70px;
+}
+
+.li_2
+{
+    
+    font-family: "Times New Roman", Times, serif;
+    border-bottom: 1.2px dotted #000;
+    text-decoration: none;
+
+}
+.li_1
+{
+   
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+#menu-outer {
+    margin-left: 36px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+    padding-top: 20px;
+    padding: 10px 40px;
+
+}
+
+ul#horizontal-list li {
+        display: inline;
+        padding: 3px; 
+
+}
+
+#menu-outer-1 {
+        
+        margin-top: 50px;
+}
+
+.table-1 {
+        display: table;   
+        margin-left: 990px;
+}
+
+
+    
+ul#horizontal-list-1 li {
+            display: inline;
+            padding: 3px; 
+
+    
+        }
+
+.bottom-footer-link-1
+{
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #000;
+}
+
+.bottom-footer-link-2
+{
+    margin-left: 120px;
+    margin-top: -40px;
+    color: #000;
+
+
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 16px;
+  }
+    
+  .btn-lg {
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+  }
+  
+  .btn-primaryy {
+    color: #fff;
+    background-color:#2D2727;
+    border-color: #2D2727;
+  }
+  
+  .btn-primaryy:hover,
+  .btn-primaryy:focus,
+  .btn-primaryy:active,
+  .btn-primaryy.active,
+  .open .dropdown-toggle.btn-primaryy {
+    color: #fff;
+    background-color: #2D2727;
+    border-color: #2D2727;
+  }
+
+  .sharp {
+    border-radius:0;
+  }
+
+  .btn {
+      padding: 14px 24px;
+      border: 0 none;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+  .btn:focus, .btn:active:focus, .btn.active:focus {
+      outline: 0 none;
+  }
+  
+  .btn-primary {
+      background: #0099cc;
+      color: #ffffff;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+      background: #33a6cc;
+  }
+  .btn-primary:active, .btn-primary.active {
+      background: #007299;
+      box-shadow: none;
+  }
+ 
+.footer_part
+{
+    margin-top: -400px;
+}
+
+.customClass {
+    margin-left: 200px
+  }
+
+  .design
+  {
+      padding-left: 500px;
+  }
+
+
+  .heading {
+      margin-bottom: 25px;
+      margin-top: 25px;
+      margin-left: 80px; 
+      font-weight:20%;
+  }
+
+  .nominal-padding {
+      padding-right: 5%;
+      padding-left: 5%;
+  }
+
+  .nominal-padding h5 {
+      margin-bottom: 15px;
+  }
+
+  .cardiv{
+      margin-left: -20px;
+  }
+
+
+.textsize
+{
+    font-size: 14px;
+    color:gray;
+}
+
+.textsize2
+{
+    color:gray;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.gray-italic {
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+}

@@ -1,0 +1,36 @@
+<div class="heading"></div>
+
+<div class="container-fluid nominal-padding">
+  <h5>MY WORKS</h5>
+  <div class="row pt-2">
+      <div class="col-md-3 mb-3" *ngFor='let post of resultant'>
+          <div class="card border-0">
+              <img class="card-img-top" src="{{post.url}}" alt="Card image cap">
+              <div class="card-body">
+                <div class="cardiv">
+                 <h5 class="card-title gray-italic">{{post.name}}</h5>
+               <p class="card-text"><b>{{post.address.city}}</b></p>
+               <div class='thin-hr'></div>
+                <div class="textsize"><a class="card-text">{{post.company.catchPhrase}}<br>{{post.company.bs}}</a></div>
+                
+              </div>
+              </div>
+            </div>       
+           </div>
+  </div>
+</div>
+
+<div class="footer_part">
+
+      <div class="bottomline">
+    <div class='thin-hr-2'></div>
+    </div>
+  <a [routerLink]="['/about']"><p class="bottom-footer-link-1" >ABOUT</p></a>
+    <a [routerLink]="['/contact']"><p class="bottom-footer-link-2">CONTACTS</p></a>
+    <p class="text-bottom">
+        All images are presented as an expamle,<br>belongings to rightful owners.
+      </p>
+    </div>
+
+
+
